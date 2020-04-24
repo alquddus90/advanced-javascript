@@ -15,9 +15,16 @@ const numbers =[3, 4, 5, 6, 7, 8];
 //     return element * element;
 // })
 
-const result = numbers.map(x => x * x);
+// const result = numbers.map(x => x * x);
 
-console.log(result);
+// console.log(result);
+
+
+const bigger = numbers.filter(x => x > 5);
+console.log(bigger);
+
+
+
 
 
 
